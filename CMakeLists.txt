@@ -6,7 +6,7 @@ set(node_draw_VERSION_MAJOR 0)
 set(node_draw_VERSION_MINOR 1)
 
 set(CMAKE_CXX_FLAGS "-std=c++11 ${CMAKE_CXX_FLAGS} -g -fPIC")
-add_subdirectory(src)
+#add_subdirectory(src)
 add_subdirectory(tests)
 
 # uninstall target
