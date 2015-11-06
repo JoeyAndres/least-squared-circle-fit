@@ -5,7 +5,7 @@ project(least_squares_circle_fit)
 set(node_draw_VERSION_MAJOR 0)
 set(node_draw_VERSION_MINOR 1)
 
-set(CMAKE_CXX_FLAGS "-std=c++11 ${CMAKE_CXX_FLAGS} -g -fPIC")
+set(CMAKE_CXX_FLAGS "-std=c++11 ${CMAKE_CXX_FLAGS} -g")
 #add_subdirectory(src)
 add_subdirectory(tests)
 
